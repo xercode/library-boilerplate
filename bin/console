@@ -1,0 +1,10 @@
+#!/usr/bin/env php
+<?php
+
+use xeBook\LibraryBoilerplate\Dummy;
+
+require dirname(__DIR__).'/vendor/autoload.php';
+
+$dummy = new Dummy();
+
+echo "The dummy result is: " . $dummy->dummyMethod() . "\n";
